@@ -4,4 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scene/_Main/Main.unity
+    guid: 6b1d0638ac3aff249af092deab0858fe
+  - enabled: 1
+    path: Assets/_Scene/RacePark/RaceTest.unity
+    guid: 94101ced9a4bc4e49bcc4d6867911052
+  - enabled: 1
+    path: Assets/_Scene/UI/UI_Main.unity
+    guid: 7a1347b47a80dae499f61809290723b7
+  - enabled: 1
+    path: Assets/_Scene/RacePark/RacePark_2D.unity
+    guid: 8b5bd4f89b8df6a4db5ac85b83a5bffd
+  - enabled: 1
+    path: Assets/_Scene/RacePark/RacePark_In.unity
+    guid: 2194f2562b5fa664ea4305d398388f31
+  - enabled: 1
+    path: Assets/_Scene/RacePark/RacePark_3D.unity
+    guid: 442146afbab85584e91d0049fa64fe57

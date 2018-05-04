@@ -1,9 +1,9 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/Assets/AssetStoreTools*
+/Daily Race/Daily Race/[Ll]ibrary/
+/Daily Race/Daily Race/[Tt]emp/
+/Daily Race/Daily Race/[Oo]bj/
+/Daily Race/Daily Race/[Bb]uild/
+/Daily Race/Daily Race/[Bb]uilds/
+/Daily Race/Daily Race/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/

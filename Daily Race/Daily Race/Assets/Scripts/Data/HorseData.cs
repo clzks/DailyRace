@@ -21,6 +21,11 @@ public class HorseData
     public int suitSoil;                // 흙 트랙 적합도 
     public int suitWater;               // 물 내성
     public int condition;               // 0 ~ 5
+    public int retire;
+    public int first;                   // 1위
+    public int second;                  // 2위
+    public int third;                   // 3위
+
 
     public float velocity;             // 현재 속력
     public float currBalance;          // 현재 밸런스 게이지
@@ -29,7 +34,8 @@ public class HorseData
     // public color horseColor
     
     public HorseData(int ID, string HorseName, int Age, int Potential, int Fame, int Power, int Weight, int Sprint, int Accel, int Indurance, int Durability, 
-                     float MaxBalance, int SuitSand, int SuitSoil, int SuitWater, int Condition, float Velocity, float CurrBalance, float Stamina) // 생성자
+                     float MaxBalance, int SuitSand, int SuitSoil, int SuitWater, int Condition, int Retire, int First, int Second, int Third,
+                     float Velocity, float CurrBalance, float Stamina) // 생성자
     {
         id = ID;
         horseName = HorseName;
@@ -47,6 +53,10 @@ public class HorseData
         suitSoil = SuitSoil;
         suitWater = SuitWater;
         condition = Condition;
+        retire = Retire;
+        first = First;
+        second = Second;
+        third = Third;
         velocity = Velocity;
         currBalance = CurrBalance;
         stamina = Stamina;

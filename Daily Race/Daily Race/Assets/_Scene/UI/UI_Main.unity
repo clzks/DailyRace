@@ -669,51 +669,6 @@ MonoBehaviour:
   mMaxLineHeight: 0
   mLineWidth: 0
   mMultiline: 1
---- !u!1 &686987230
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 686987232}
-  - component: {fileID: 686987231}
-  m_Layer: 0
-  m_Name: UI_Main
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &686987231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 686987230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae2cbab15babf644856c8e9380d475e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  year: {fileID: 0}
-  month: {fileID: 0}
-  day: {fileID: 0}
-  dayOfWeek: {fileID: 0}
-  money: {fileID: 0}
---- !u!4 &686987232
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 686987230}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.60490686, y: 0.5645678, z: 0.58618164}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925176916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,7 +1060,6 @@ GameObject:
   - component: {fileID: 1204124385}
   - component: {fileID: 1204124388}
   - component: {fileID: 1204124387}
-  - component: {fileID: 1204124386}
   m_Layer: 5
   m_Name: Camera
   m_TagString: Untagged
@@ -1128,13 +1082,6 @@ Transform:
   m_Father: {fileID: 477928880}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1204124386
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1204124384}
-  m_Enabled: 1
 --- !u!114 &1204124387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,7 +1130,7 @@ Camera:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1204124384}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

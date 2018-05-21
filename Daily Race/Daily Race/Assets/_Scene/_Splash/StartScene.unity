@@ -165,9 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11950a3d10fbdc3468babb245386a651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horseList: []
-  riderList: []
-  userData: {fileID: 0}
 --- !u!1 &907801781
 GameObject:
   m_ObjectHideFlags: 0

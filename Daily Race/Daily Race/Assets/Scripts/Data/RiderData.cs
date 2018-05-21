@@ -17,14 +17,14 @@ public class RiderData
     public int curve;                   // 커브
     public int judgement;               // 판단력
     public int competitiveSprit;        // 승부욕  
-    public int professional;            // 프로의식 (스포츠맨십)
     public int ethic;                   // 윤리의식
+    public int professional;            // 프로의식 (스포츠맨십)
 
     public int condition;
     
 
     public RiderData(int ID, string RiderName, int Age, int Potential, int Fame, int Height, int Weight, int Straight, int Curve, 
-                     int Judgement, int CompetitiveSprit, int Professional, int Ethic, int Condition)
+                     int Judgement, int CompetitiveSprit, int Ethic, int Professional, int Condition)
     {
         id = ID;
         riderName = RiderName;
@@ -37,8 +37,8 @@ public class RiderData
         curve = Curve;
         judgement = Judgement;
         competitiveSprit = CompetitiveSprit;
-        professional = Professional;
         ethic = Ethic;
+        professional = Professional;
         condition = Condition;
     }
 }

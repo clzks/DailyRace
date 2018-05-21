@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 404231873}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ed2e885900b10842bb05192dfa684a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 69a4defcd4077db4f8e842d4d579fae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &454193450
@@ -1945,7 +1945,11 @@ MonoBehaviour:
   pressedSprite2D: {fileID: 0}
   disabledSprite2D: {fileID: 0}
   pixelSnap: 0
-  onClick: []
+  onClick:
+  - mTarget: {fileID: 404231878}
+    mMethodName: ChangeRaceTest
+    mParameters: []
+    oneShot: 0
 --- !u!65 &1470616316
 BoxCollider:
   m_ObjectHideFlags: 0

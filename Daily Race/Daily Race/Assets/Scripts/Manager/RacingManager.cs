@@ -12,7 +12,7 @@ public class RacehorseIndice
 public class RacingManager : MonoBehaviour
 {
     public List<RacehorseIndice> raceHorseList = new List<RacehorseIndice>();
- 
+    
     
     private void Awake()
     {

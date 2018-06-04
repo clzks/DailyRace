@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Horse
   - Track
+  - RightTrack
+  - LeftTrack
   layers:
   - Default
   - TransparentFX
@@ -15,9 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - LeftTrack
+  - RightTrack
+  - OptimumTrack
   - 
   - 
   - 
@@ -42,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 2852553857
     locked: 0
